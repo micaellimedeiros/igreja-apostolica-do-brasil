@@ -3,5 +3,5 @@ import React from 'react';
 // import { Container } from './styles';
 
 export default function News() {
-  return <div />;
+  return <h1>Pagina Novidades</h1>;
 }
