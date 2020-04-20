@@ -12,13 +12,36 @@ export const Container = styled.header`
   background-size: 100%;
   background-repeat: no-repeat;
 
+  @media (max-width: 768px) {
+    height: 280px;
+  }
+
+  @media (max-width: 375px) {
+    height: 150px;
+    p {
+      font-size: 60%;
+    }
+    h2 {
+      font-size: 80%;
+    }
+  }
+
   nav {
     flex: 1;
-
+    max-width: 980px;
     margin: 5% 0% 5% 33%;
-    font-size: 110%;
+    font-size: 100%;
     font-weight: bold;
     position: relative;
+    display: inline;
+
+    @media (max-width: 768px) {
+      font-size: 60%;
+    }
+    @media (max-width: 540px) {
+      font-size: 50%;
+      margin-left: 11%;
+    }
 
     a {
       color: #666;
@@ -32,11 +55,11 @@ export const Container = styled.header`
         color: #e67016;
       }
     }
-    a.radio {
-      padding: 10px 16px;
-      border: 2px solid #e67016;
-      border-radius: 30px;
-    }
+  }
+  a.radio {
+    padding: 10px 16px;
+    border: 2px solid #e67016;
+    border-radius: 30px;
   }
   img {
     width: 23%;
@@ -51,4 +74,13 @@ export const Text = styled.text`
   position: absolute;
   margin-right: 60%;
   margin-left: 10%;
+  font-size: 100%;
+
+  h2 {
+    padding: 0 0 10px 0;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 80%;
+  }
 `;

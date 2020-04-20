@@ -27,9 +27,9 @@ export default function Header() {
       <Text>
         <h2>Uma Igreja de amor, poder e fé!</h2>
         <p>
-          Uma Igreja Unicista que segue a Bíblia como referência, cremos no
-          batismo nas àguas em nome de Jesus Cristo e estamos aguardando a volta
-          do Senhor! (Atos 2:38)
+          Somos uma Igreja Unicista que segue a Bíblia como referência, cremos
+          no batismo nas àguas em nome de Jesus Cristo e estamos aguardando a
+          volta do Senhor Jesus Cristo! (Atos 2:38)
         </p>
       </Text>
     </Container>
