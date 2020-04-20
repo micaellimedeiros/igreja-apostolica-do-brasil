@@ -29,7 +29,7 @@ export default function Header() {
         <p>
           Somos uma Igreja Unicista que segue a Bíblia como referência, cremos
           no batismo nas àguas em nome de Jesus Cristo e estamos aguardando a
-          volta do Senhor Jesus Cristo! (Atos 2:38)
+          volta do Senhor! (Atos 2:38)
         </p>
       </Text>
     </Container>

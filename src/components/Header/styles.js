@@ -16,13 +16,14 @@ export const Container = styled.header`
     height: 280px;
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 370px) {
     height: 150px;
-    p {
-      font-size: 60%;
-    }
+
     h2 {
-      font-size: 80%;
+      display: none;
+    }
+    p {
+      font-size: 85%;
     }
   }
 
@@ -62,7 +63,7 @@ export const Container = styled.header`
     border-radius: 30px;
   }
   img {
-    width: 23%;
+    width: 25%;
 
     margin: 5% 0px 2% 10%;
     position: absolute;
@@ -70,6 +71,7 @@ export const Container = styled.header`
 `;
 
 export const Text = styled.text`
+  width: 45%;
   margin-top: 18%;
   position: absolute;
   margin-right: 60%;
@@ -78,9 +80,15 @@ export const Text = styled.text`
 
   h2 {
     padding: 0 0 10px 0;
+    width: 75%;
+    font-size: 200%;
+  }
+
+  p {
+    width: 65%;
   }
 
   @media (max-width: 768px) {
-    font-size: 80%;
+    font-size: 70%;
   }
 `;
