@@ -1,7 +1,16 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import { LineTop, Container } from './styles';
 
 export default function Main() {
-  return <h1>Página Main</h1>;
+  return (
+    <>
+      <LineTop>
+        <h1>NO QUE CREMOS</h1>
+      </LineTop>
+      <Container>
+        <h1>Pagina Main</h1>
+      </Container>
+    </>
+  );
 }
