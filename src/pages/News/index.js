@@ -1,7 +1,16 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import { LineTop, Container } from './styles';
 
 export default function News() {
-  return <h1>Pagina Novidades!</h1>;
+  return (
+    <>
+      <LineTop>
+        <h1>NOTÍCIAS DE AVIVAMENTO</h1>
+      </LineTop>
+      <Container>
+        <h1>Pagina Noticias</h1>
+      </Container>
+    </>
+  );
 }
