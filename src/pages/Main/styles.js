@@ -32,5 +32,101 @@ export const LineTop = styled.div`
 `;
 export const Container = styled.div`
   max-width: 980px;
-  background: 100%;
+  margin: 0 auto;
+`;
+
+export const Batismo = styled.div`
+  align-items: justify;
+  flex-wrap: wrap;
+
+  img.side {
+    width: 27%;
+    float: left;
+    margin-top: 2%;
+  }
+  img.top {
+    width: 70%;
+    height: 60%;
+  }
+
+  > h3 {
+    flex: 1;
+    width: 70%;
+    float: right;
+    text-align: justify;
+    margin: 5px 10px;
+  }
+  > p {
+    flex: 1;
+    width: 70%;
+    float: right;
+    text-align: justify;
+    margin: 10px 10px;
+  }
+`;
+export const Separator = styled.div`
+  border: 1px solid #ddd;
+  margin-top: 26%;
+`;
+
+export const Unicidade = styled.div`
+  align-items: justify;
+  flex-wrap: wrap;
+
+  img.side {
+    width: 27%;
+    float: left;
+    margin-top: 2%;
+  }
+  img.top {
+    width: 70%;
+    height: 60%;
+  }
+
+  h3 {
+    flex: 1;
+    width: 70%;
+    float: right;
+    text-align: justify;
+    margin: 5px 10px;
+  }
+
+  p {
+    flex: 1;
+    width: 70%;
+    float: right;
+    text-align: justify;
+    margin: 10px 10px;
+  }
+`;
+
+export const Santidade = styled.div`
+  align-items: justify;
+  flex-wrap: wrap;
+
+  img.side {
+    width: 27%;
+    float: left;
+    margin-top: 2%;
+  }
+  img.top {
+    width: 70%;
+    height: 60%;
+  }
+
+  h3 {
+    flex: 1;
+    width: 70%;
+    float: right;
+    text-align: justify;
+    margin: 5px 10px;
+  }
+
+  p {
+    flex: 1;
+    width: 70%;
+    float: right;
+    text-align: justify;
+    margin: 10px 10px;
+  }
 `;
