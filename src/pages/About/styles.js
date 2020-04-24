@@ -33,4 +33,42 @@ export const LineTop = styled.div`
 export const Container = styled.div`
   max-width: 980px;
   background: 100%;
+  margin: 0 auto;
+
+  h4 {
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+  }
+  .jblambeth {
+    flex: 1;
+    width: 20%;
+    float: left;
+    text-align: justify;
+    margin: 5px 10px;
+  }
+
+  .lambeths {
+    flex: 1;
+    width: 20%;
+    float: right;
+    text-align: justify;
+    margin: 5px 10px;
+  }
+  .family {
+    flex: 1;
+    width: 20%;
+    float: left;
+    text-align: justify;
+    margin: 5px 10px;
+  }
+  .bishops {
+    flex: 1;
+    width: 20%;
+    float: right;
+    text-align: justify;
+    margin: 5px 10px;
+  }
 `;
