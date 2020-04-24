@@ -32,5 +32,13 @@ export const LineTop = styled.div`
 `;
 export const Container = styled.div`
   max-width: 980px;
-  background: 100%;
+  height: 980px;
+  margin: 0 auto;
+
+  .lightwidget-widget {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    overflow: hidden;
+  }
 `;
