@@ -35,6 +35,10 @@ export const Container = styled.div`
   height: 980px;
   margin: 0 auto;
 
+  img {
+    width: 100%;
+  }
+
   .lightwidget-widget {
     width: 100%;
     height: 100%;
