@@ -13,7 +13,7 @@ export const LineTop = styled.div`
     font-weight: bold;
     color: #000;
     padding: 5px 10px;
-    border: solid 5px #000;
+    border: solid 3px #000;
     border-radius: 10px;
   }
 
@@ -62,11 +62,28 @@ export const Batismo = styled.div`
     float: right;
     text-align: justify;
     margin: 10px 10px;
+    margin-bottom: 6%;
   }
-`;
-export const Separator = styled.div`
-  border: 1px solid #ddd;
-  margin-top: 26%;
+
+  @media (max-width: 768px) {
+    img.top {
+      display: none;
+    }
+    img.side {
+      width: 40%;
+    }
+
+    h3 {
+      width: auto;
+      float: center;
+    }
+
+    p {
+      width: 100%;
+      align-items: center;
+      float: center;
+    }
+  }
 `;
 
 export const Unicidade = styled.div`
@@ -97,6 +114,7 @@ export const Unicidade = styled.div`
     float: right;
     text-align: justify;
     margin: 10px 10px;
+    margin-bottom: 6%;
   }
 `;
 
@@ -128,5 +146,6 @@ export const Santidade = styled.div`
     float: right;
     text-align: justify;
     margin: 10px 10px;
+    margin-bottom: 6%;
   }
 `;

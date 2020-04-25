@@ -1,13 +1,6 @@
 import React from 'react';
 
-import {
-  LineTop,
-  Container,
-  Batismo,
-  Unicidade,
-  Separator,
-  Santidade,
-} from './styles';
+import { LineTop, Container, Batismo, Unicidade, Santidade } from './styles';
 import batismo from '../../assets/batismo.png';
 import batismotitulo from '../../assets/batismo-titulo.png';
 import unicidade from '../../assets/unicidade.png';
@@ -47,7 +40,7 @@ export default function Main() {
             NOME é JESUS.
           </p>
         </Batismo>
-        <Separator />
+
         <Unicidade>
           <img className="top" src={unicidadetitulo} alt="unicidade-titulo" />
           <img className="side" src={unicidade} alt="unicidade" />
@@ -65,10 +58,18 @@ export default function Main() {
             dEle, teve outros filhos com seu esposo José (João 1:14: E o verbo
             se fez carne, e habitou entre nós, e vimos a sua glória, como a
             glória do unigênito do Pai, cheio de graça e de verdade). Veja
-            também João 1:18.
+            também João 1:18. Este único Deus teve um único filho, que recebeu o
+            nome de JESUS, e este foi o Cristo. A palavra “Cristo” significa
+            “ungido”, e o Senhor Jesus é o Cristo porque Ele recebeu a unção do
+            Pai. E sendo filho único de Deus (unigênito), era ao mesmo tempo o
+            primeiro filho (primogênito) de sua mãe, Maria, porque ela, depois
+            do nascimento dEle, teve outros filhos com seu esposo José (João
+            1:14: E o verbo se fez carne, e habitou entre nós, e vimos a sua
+            glória, como a glória do unigênito do Pai, cheio de graça e de
+            verdade). Veja também João 1:18.
           </p>
         </Unicidade>
-        <Separator />
+
         <Santidade>
           <img className="top" src={santidadetitulo} alt="santidade-titulo" />
           <img className="side" src={santidade} alt="santidade" />
