@@ -13,7 +13,7 @@ export const LineTop = styled.div`
     font-weight: bold;
     color: #000;
     padding: 5px 10px;
-    border: solid 5px #000;
+    border: solid 3px #000;
     border-radius: 10px;
   }
 
