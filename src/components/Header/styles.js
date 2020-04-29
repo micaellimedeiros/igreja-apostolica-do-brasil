@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import brazao from '../../assets/brazao-side.png';
 
 export const Container = styled.header`
-  @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
   background-color: #e1e1e1;
   height: 400px;
   display: flex;
@@ -48,6 +47,7 @@ export const Container = styled.header`
       color: #666;
       transition: color 0.2s;
       text-decoration: none;
+      font-weight: bold;
 
       & + a {
         margin-left: 5%;
