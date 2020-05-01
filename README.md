@@ -12,7 +12,7 @@ _Uma Igreja Unicista que segue a Bíblia como referência,cremos no batismo nas 
 
 <h1 align="center">
 <img src="https://raw.githubusercontent.com/MicaelliMedeiros/igreja-apostolica-do-brasil/master/.github/site-1.png" width="50%" heigth="50%" /><img src="https://raw.githubusercontent.com/MicaelliMedeiros/igreja-apostolica-do-brasil/master/.github/site-2.png" width="50%" heigth="50%" />
-<img src="https://raw.githubusercontent.com/MicaelliMedeiros/igreja-apostolica-do-brasil/master/.github/site-3.png" width="50%" heigth="50%" /><img src="https://raw.githubusercontent.com/MicaelliMedeiros/igreja-apostolica-do-brasil/master/.github/android-1.png" width="50%" heigth="50%" />
+<img src="https://raw.githubusercontent.com/MicaelliMedeiros/igreja-apostolica-do-brasil/master/.github/site-3.png" width="50%" heigth="50%" /><img src="https://raw.githubusercontent.com/MicaelliMedeiros/igreja-apostolica-do-brasil/master/.github/android-1.png" width="35%" heigth="35%" />
 </h1>
 
 By [MicaelliMedeiros](https://www.linkedin.com/in/micaellimedeiros/) ❤
